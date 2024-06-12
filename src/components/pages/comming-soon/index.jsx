@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function ComingSoon({ t }) {
-  console.log(t.hello)
-  return <div>{t.hello.welcome}</div>
+  return (
+    <header>
+      <div className='w-full h-14 bg-primary' />
+      <section className='container'></section>
+    </header>
+  )
 }

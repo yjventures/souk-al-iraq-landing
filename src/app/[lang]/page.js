@@ -6,6 +6,6 @@ export const metadata = {
 }
 
 export default async function Home({ params: { lang } }) {
-  const t = await getComingSoonDict(lang)
-  return <ComingSoon t={t} />
+  const dict = await getComingSoonDict(lang)
+  return <ComingSoon t={dict.header} />
 }

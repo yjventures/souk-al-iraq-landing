@@ -1,5 +1,11 @@
 {
-  "hello": {
-    "welcome": "Welcome"
+  "header": {
+    "title": "Our Website is coming soon...",
+    "subtitle": "Unlock Your Business's Potential with Souq Al Iraq! Join today and enjoy 24/7 online store access, seamless product management, and powerful marketing tools.",
+    "listing": {
+      "placeholder": "Your Email Address",
+      "button": "Join Us Now"
+    },
+    "socialMedia": "Follow us on Social Media"
   }
 }
